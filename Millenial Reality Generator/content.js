@@ -11,6 +11,7 @@ for (var i = 0; i < elements.length; i++) {
             var replacedText = text.replace(/millennials/gi, 'people under 40');
             var replacedText = text.replace(/aliens/gi, 'extraplanetary visitors');
             var replacedText = text.replace(/Mitch McConnell/gi, 'Darth Turtle');
+            var replacedText = text.replace(/sorry/gi, 'sorry not sorry');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
