@@ -1,6 +1,6 @@
 {
 "manifest_version": 2,
-    "name": "millennial realism engine",
+    "name": "Millennial Reality Generator",
     "description": "Millennials arent ruining the world. They're getting old in it.",
     "version": "1.0",
     "content_scripts": [
