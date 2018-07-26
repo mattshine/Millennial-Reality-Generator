@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
-    "name": "Millennial Reality Generator",
-    "description": "Replaces various text strings with phrases that cater to millennials.",
+    "name": "millennial realism engine",
+    "description": "Millennials arent ruining the world. They're getting old in it.",
     "version": "1.0",
     "content_scripts": [
         {

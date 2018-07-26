@@ -8,7 +8,9 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/millennial/gi, 'people 40');
+            var replacedText = text.replace(/millennials/gi, 'people under 40');
+            var replacedText = text.replace(/aliens/gi, 'extraplanetary visitors');
+            var replacedText = text.replace(/Mitch McConnell/gi, 'Darth Turtle');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
@@ -16,3 +18,5 @@ for (var i = 0; i < elements.length; i++) {
         }
     }
 }
+
+// a dumb project by Lament Icarus and theWifiPirate
